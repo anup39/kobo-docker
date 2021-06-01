@@ -1,0 +1,198 @@
+[2021-05-31 16:26:20,426: INFO/MainProcess] Connected to redis://:**@redis-main.kobo.private:6379/2
+[2021-05-31 16:26:20,444: INFO/MainProcess] mingle: searching for neighbors
+[2021-05-31 16:26:21,476: INFO/MainProcess] mingle: all alone
+[2021-05-31 16:26:21,491: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/fixups/django.py:200: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2021-05-31 16:26:21,492: INFO/MainProcess] kobocat_main_worker@kobocat ready.
+[2021-05-31 19:59:58,617: INFO/MainProcess] Connected to redis://:**@redis-main.kobo.private:6379/2
+[2021-05-31 19:59:58,631: INFO/MainProcess] mingle: searching for neighbors
+[2021-05-31 19:59:59,652: INFO/MainProcess] mingle: all alone
+[2021-05-31 19:59:59,672: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/fixups/django.py:200: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2021-05-31 19:59:59,673: INFO/MainProcess] kobocat_main_worker@kobocat ready.
+[2021-05-31 20:11:49,197: INFO/MainProcess] Connected to redis://:**@redis-main.kobo.private:6379/2
+[2021-05-31 20:11:49,207: INFO/MainProcess] mingle: searching for neighbors
+[2021-05-31 20:11:50,231: INFO/MainProcess] mingle: all alone
+[2021-05-31 20:11:50,245: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/fixups/django.py:200: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2021-05-31 20:11:50,246: INFO/MainProcess] kobocat_main_worker@kobocat ready.
+[2021-05-31 20:16:39,290: INFO/MainProcess] Connected to redis://:**@redis-main.kobo.private:6379/2
+[2021-05-31 20:16:39,301: INFO/MainProcess] mingle: searching for neighbors
+[2021-05-31 20:16:40,320: INFO/MainProcess] mingle: all alone
+[2021-05-31 20:16:40,332: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/fixups/django.py:200: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2021-05-31 20:16:40,333: INFO/MainProcess] kobocat_main_worker@kobocat ready.
+[2021-05-31 20:19:26,315: INFO/MainProcess] Connected to redis://:**@redis-main.kobo.private:6379/2
+[2021-05-31 20:19:26,324: INFO/MainProcess] mingle: searching for neighbors
+[2021-05-31 20:19:27,345: INFO/MainProcess] mingle: all alone
+[2021-05-31 20:19:27,362: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/fixups/django.py:200: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2021-05-31 20:19:27,363: INFO/MainProcess] kobocat_main_worker@kobocat ready.
+[2021-05-31 20:29:44,424: INFO/MainProcess] Connected to redis://:**@redis-main.kobo.private:6379/2
+[2021-05-31 20:29:44,437: INFO/MainProcess] mingle: searching for neighbors
+[2021-05-31 20:29:45,461: INFO/MainProcess] mingle: all alone
+[2021-05-31 20:29:45,485: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/fixups/django.py:200: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2021-05-31 20:29:45,486: INFO/MainProcess] kobocat_main_worker@kobocat ready.
+[2021-05-31 20:31:29,979: INFO/MainProcess] Connected to redis://:**@redis-main.kobo.private:6379/2
+[2021-05-31 20:31:29,987: INFO/MainProcess] mingle: searching for neighbors
+[2021-05-31 20:31:31,007: INFO/MainProcess] mingle: all alone
+[2021-05-31 20:31:31,030: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/fixups/django.py:200: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2021-05-31 20:31:31,032: INFO/MainProcess] kobocat_main_worker@kobocat ready.
+[2021-05-31 20:33:14,956: INFO/MainProcess] Connected to redis://:**@redis-main.kobo.private:6379/2
+[2021-05-31 20:33:14,968: INFO/MainProcess] mingle: searching for neighbors
+[2021-05-31 20:33:15,989: INFO/MainProcess] mingle: all alone
+[2021-05-31 20:33:16,022: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/fixups/django.py:200: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2021-05-31 20:33:16,024: INFO/MainProcess] kobocat_main_worker@kobocat ready.
+[2021-05-31 20:43:40,814: INFO/MainProcess] Connected to redis://:**@redis-main.kobo.private:6379/2
+[2021-05-31 20:43:40,834: INFO/MainProcess] mingle: searching for neighbors
+[2021-05-31 20:43:41,862: INFO/MainProcess] mingle: all alone
+[2021-05-31 20:43:41,876: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/fixups/django.py:200: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2021-05-31 20:43:41,877: INFO/MainProcess] kobocat_main_worker@kobocat ready.
+[2021-05-31 20:44:59,855: INFO/MainProcess] Connected to redis://:**@redis-main.kobo.private:6379/2
+[2021-05-31 20:44:59,867: INFO/MainProcess] mingle: searching for neighbors
+[2021-05-31 20:45:00,888: INFO/MainProcess] mingle: all alone
+[2021-05-31 20:45:00,924: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/fixups/django.py:200: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2021-05-31 20:45:00,925: INFO/MainProcess] kobocat_main_worker@kobocat ready.
+[2021-05-31 20:48:04,275: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/consumer/consumer.py", line 317, in start
+    blueprint.start(self)
+  File "/usr/local/lib/python2.7/dist-packages/celery/bootsteps.py", line 119, in start
+    step.start(parent)
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/consumer/consumer.py", line 593, in start
+    c.loop(*c.loop_args())
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/loops.py", line 91, in asynloop
+    next(loop)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/asynchronous/hub.py", line 362, in create_loop
+    cb(*cbargs)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 1070, in on_readable
+    self.cycle.on_readable(fileno)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 348, in on_readable
+    chan.handlers[type]()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 679, in _receive
+    ret.append(self._receive_one(c))
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 690, in _receive_one
+    response = c.parse_response()
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 3036, in parse_response
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 3013, in _execute
+    return command(*args)
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 637, in read_response
+    response = self._parser.read_response()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 290, in read_response
+    response = self._buffer.readline()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 224, in readline
+    self._read_from_socket()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 199, in _read_from_socket
+    (e.args,))
+ConnectionError: Error while reading from socket: (u'Connection closed by server.',)
+[2021-05-31 20:48:04,291: ERROR/MainProcess] consumer: Cannot connect to redis://:**@redis-main.kobo.private:6379/2: Error 111 connecting to redis-main.kobo.private:6379. Connection refused..
+Trying again in 2.00 seconds...
+
+[2021-05-31 20:48:07,304: ERROR/MainProcess] consumer: Cannot connect to redis://:**@redis-main.kobo.private:6379/2: Error 111 connecting to redis-main.kobo.private:6379. Connection refused..
+Trying again in 4.00 seconds...
+
+[2021-05-31 20:48:11,310: ERROR/MainProcess] consumer: Cannot connect to redis://:**@redis-main.kobo.private:6379/2: Error 111 connecting to redis-main.kobo.private:6379. Connection refused..
+Trying again in 6.00 seconds...
+
+[2021-05-31 20:48:17,319: ERROR/MainProcess] consumer: Cannot connect to redis://:**@redis-main.kobo.private:6379/2: Error 111 connecting to redis-main.kobo.private:6379. Connection refused..
+Trying again in 8.00 seconds...
+
+[2021-05-31 20:48:25,329: ERROR/MainProcess] consumer: Cannot connect to redis://:**@redis-main.kobo.private:6379/2: Error 111 connecting to redis-main.kobo.private:6379. Connection refused..
+Trying again in 10.00 seconds...
+
+[2021-05-31 20:48:35,353: INFO/MainProcess] Connected to redis://:**@redis-main.kobo.private:6379/2
+[2021-05-31 20:48:35,375: INFO/MainProcess] mingle: searching for neighbors
+[2021-05-31 20:48:36,383: INFO/MainProcess] mingle: all alone
+[2021-05-31 20:55:30,037: INFO/MainProcess] Connected to redis://:**@redis-main.kobo.private:6379/2
+[2021-05-31 20:55:30,048: INFO/MainProcess] mingle: searching for neighbors
+[2021-05-31 20:55:31,069: INFO/MainProcess] mingle: all alone
+[2021-05-31 20:55:31,085: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/fixups/django.py:200: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2021-05-31 20:55:31,086: INFO/MainProcess] kobocat_main_worker@kobocat ready.
+[2021-05-31 20:57:37,590: INFO/MainProcess] Connected to redis://:**@redis-main.kobo.private:6379/2
+[2021-05-31 20:57:37,600: INFO/MainProcess] mingle: searching for neighbors
+[2021-05-31 20:57:38,621: INFO/MainProcess] mingle: all alone
+[2021-05-31 20:57:38,633: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/fixups/django.py:200: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2021-05-31 20:57:38,633: INFO/MainProcess] kobocat_main_worker@kobocat ready.
+[2021-06-01 01:30:39,735: INFO/MainProcess] Connected to redis://:**@redis-main.kobo.private:6379/2
+[2021-06-01 01:30:39,745: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-01 01:30:40,763: INFO/MainProcess] mingle: all alone
+[2021-06-01 01:30:40,778: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/fixups/django.py:200: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2021-06-01 01:30:40,779: INFO/MainProcess] kobocat_main_worker@kobocat ready.
+[2021-06-01 01:52:46,167: INFO/MainProcess] Connected to redis://:**@redis-main.kobo.private:6379/2
+[2021-06-01 01:52:46,178: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-01 01:52:47,195: INFO/MainProcess] mingle: all alone
+[2021-06-01 01:52:47,207: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/fixups/django.py:200: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2021-06-01 01:52:47,208: INFO/MainProcess] kobocat_main_worker@kobocat ready.
+[2021-06-01 01:57:40,772: INFO/MainProcess] Connected to redis://:**@redis-main.kobo.private:6379/2
+[2021-06-01 01:57:40,784: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-01 01:57:41,806: INFO/MainProcess] mingle: all alone
+[2021-06-01 01:57:41,819: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/fixups/django.py:200: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2021-06-01 01:57:41,820: INFO/MainProcess] kobocat_main_worker@kobocat ready.
+[2021-06-01 02:02:45,889: INFO/MainProcess] Connected to redis://:**@redis-main.kobo.private:6379/2
+[2021-06-01 02:02:45,901: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-01 02:02:46,924: INFO/MainProcess] mingle: all alone
+[2021-06-01 02:02:46,946: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/fixups/django.py:200: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2021-06-01 02:02:46,947: INFO/MainProcess] kobocat_main_worker@kobocat ready.
+[2021-06-01 02:04:33,797: INFO/MainProcess] Connected to redis://:**@redis-main.kobo.private:6379/2
+[2021-06-01 02:04:33,812: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-01 02:04:34,840: INFO/MainProcess] mingle: all alone
+[2021-06-01 02:04:34,851: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/fixups/django.py:200: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2021-06-01 02:04:34,851: INFO/MainProcess] kobocat_main_worker@kobocat ready.
+[2021-06-01 02:05:47,463: INFO/MainProcess] Connected to redis://:**@redis-main.kobo.private:6379/2
+[2021-06-01 02:05:47,473: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-01 02:05:48,490: INFO/MainProcess] mingle: all alone
+[2021-06-01 02:05:48,502: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/fixups/django.py:200: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2021-06-01 02:05:48,503: INFO/MainProcess] kobocat_main_worker@kobocat ready.
+[2021-06-01 02:10:28,307: INFO/MainProcess] Connected to redis://:**@redis-main.kobo.private:6379/2
+[2021-06-01 02:10:28,326: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-01 02:10:29,355: INFO/MainProcess] mingle: all alone
+[2021-06-01 02:10:29,367: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/fixups/django.py:200: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2021-06-01 02:10:29,368: INFO/MainProcess] kobocat_main_worker@kobocat ready.
+[2021-06-01 02:11:25,308: INFO/MainProcess] Connected to redis://:**@redis-main.kobo.private:6379/2
+[2021-06-01 02:11:25,318: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-01 02:11:26,337: INFO/MainProcess] mingle: all alone
+[2021-06-01 02:11:26,348: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/fixups/django.py:200: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2021-06-01 02:11:26,349: INFO/MainProcess] kobocat_main_worker@kobocat ready.
+[2021-06-01 02:15:35,644: INFO/MainProcess] Connected to redis://:**@redis-main.kobo.private:6379/2
+[2021-06-01 02:15:35,655: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-01 02:15:36,676: INFO/MainProcess] mingle: all alone
+[2021-06-01 02:15:36,717: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/fixups/django.py:200: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2021-06-01 02:15:36,718: INFO/MainProcess] kobocat_main_worker@kobocat ready.

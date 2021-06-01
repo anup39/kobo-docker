@@ -1,0 +1,128 @@
+# For public, HTTPS servers.
+version: '3'
+
+services:
+  kobocat:
+    #build: 
+    #image: kobocat:dev.kobofe1622478220
+    #volumes:
+    #  - :/srv/src/kobocat
+    environment:
+      - ENKETO_PROTOCOL=http
+      - KC_UWSGI_WORKERS_COUNT=2
+      - KC_UWSGI_CHEAPER_WORKERS_COUNT=1
+      - NGINX_PUBLIC_PORT=80
+      - KC_UWSGI_MAX_REQUESTS=512
+      - KC_UWSGI_CHEAPER_RSS_LIMIT_SOFT=134217728
+      - KC_UWSGI_HARAKIRI=120
+      - KC_UWSGI_WORKER_RELOAD_MERCY=120
+    extra_hosts:
+      - kf.kobo.local:192.168.1.8
+      - kc.kobo.local:192.168.1.8
+      - ee.kobo.local:192.168.1.8
+      - kobo_naxa.kobo.local:192.168.1.8
+      #- postgres.kobo.private:192.168.1.8
+      #- mongo.kobo.private:192.168.1.8
+      #- redis-main.kobo.private:192.168.1.8
+      #- redis-cache.kobo.private:192.168.1.8
+    networks:
+      kobo-be-network:
+        aliases:
+          - kobocat
+          - kobocat.docker.container
+
+  kpi:
+    #build: 
+    #image: kpi:dev.
+    #volumes:
+    #  - :/srv/src/kpi
+    environment:
+      - KPI_UWSGI_WORKERS_COUNT=2
+      - KPI_UWSGI_CHEAPER_WORKERS_COUNT=1
+      - NGINX_PUBLIC_PORT=80
+      - KPI_UWSGI_MAX_REQUESTS=512
+      - KPI_UWSGI_CHEAPER_RSS_LIMIT_SOFT=134217728
+      - KPI_UWSGI_HARAKIRI=120
+      - KPI_UWSGI_WORKER_RELOAD_MERCY=120
+      #- SECURE_PROXY_SSL_HEADER=HTTP_X_FORWARDED_PROTO, https
+      #- FRONTEND_DEV_MODE=host
+    extra_hosts:
+      - kf.kobo.local:192.168.1.8
+      - kc.kobo.local:192.168.1.8
+      - ee.kobo.local:192.168.1.8
+      - kobo_naxa.kobo.local:192.168.1.8
+      #- postgres.kobo.private:192.168.1.8
+      #- mongo.kobo.private:192.168.1.8
+      #- redis-main.kobo.private:192.168.1.8
+      #- redis-cache.kobo.private:192.168.1.8
+    networks:
+      kobo-be-network:
+        aliases:
+          - kpi
+          - kpi.docker.container
+
+
+  kobo_naxa:
+    command: "uwsgi --ini uwsgi.ini"
+    extra_hosts:
+      - kf.kobo.local:192.168.1.8
+      - kc.kobo.local:192.168.1.8
+      - ee.kobo.local:192.168.1.8
+      - kobo_naxa.kobo.local:192.168.1.8
+      #- postgres.kobo.private:192.168.1.8
+      #- mongo.kobo.private:192.168.1.8
+      #- redis-main.kobo.private:192.168.1.8
+      #- redis-cache.kobo.private:192.168.1.8
+    networks:
+      kobo-be-network:
+        aliases:
+          - kobo_naxa
+          - kobo_naxa.docker.container
+
+  nginx:
+    environment:
+      - NGINX_PUBLIC_PORT=80
+      - UWSGI_PASS_TIMEOUT=130
+    ports:
+      - 80:80
+    extra_hosts:
+      - kf.kobo.local:192.168.1.8
+      - kc.kobo.local:192.168.1.8
+      - ee.kobo.local:192.168.1.8
+      - kobo_naxa.kobo.local:192.168.1.8
+      #- postgres.kobo.private:192.168.1.8
+      #- mongo.kobo.private:192.168.1.8
+      #- redis-main.kobo.private:192.168.1.8
+      #- redis-cache.kobo.private:192.168.1.8
+    networks:
+      kobo-fe-network:
+        aliases:
+          - kf.docker.internal
+          - kc.docker.internal
+          - ee.docker.internal
+          - kobo_naxa.docker.internal
+
+  enketo_express:
+    # `DUMMY_ENV` is only there to avoid extra complex condition to override
+    # `enketo_express` section or not. It allows to always this section whatever
+    # `USE_EXTRA_HOSTS` and `USE_BACKEND_NETWORK` values are.
+    environment:
+      - DUMMY_ENV=True
+    extra_hosts:
+      - kf.kobo.local:192.168.1.8
+      - kc.kobo.local:192.168.1.8
+      - ee.kobo.local:192.168.1.8
+      - kobo_naxa.kobo.local:192.168.1.8
+      #- postgres.kobo.private:192.168.1.8
+      #- mongo.kobo.private:192.168.1.8
+      #- redis-main.kobo.private:192.168.1.8
+      #- redis-cache.kobo.private:192.168.1.8
+    networks:
+      kobo-be-network:
+        aliases:
+          - enketo_express
+
+networks:
+  kobo-be-network:
+    external:
+      name: kobobe_kobo-be-network

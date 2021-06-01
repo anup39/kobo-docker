@@ -1,0 +1,609 @@
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.2.12 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 1
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+1:M 31 May 16:25:05.879 # Server started, Redis version 3.2.12
+1:M 31 May 16:25:05.879 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 31 May 16:25:05.879 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+1:M 31 May 16:25:05.879 * The server is now ready to accept connections on port 6379
+1:M 31 May 16:30:06.073 * 1 changes in 300 seconds. Saving...
+1:M 31 May 16:30:06.075 * Background saving started by pid 229
+229:C 31 May 16:30:06.079 * DB saved on disk
+229:C 31 May 16:30:06.080 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 16:30:06.176 # Warning, detected child with unmatched pid: 220
+1:M 31 May 16:30:06.276 * Background saving terminated with success
+1:M 31 May 16:35:07.023 * 1 changes in 300 seconds. Saving...
+1:M 31 May 16:35:07.027 * Background saving started by pid 230
+230:C 31 May 16:35:07.030 * DB saved on disk
+230:C 31 May 16:35:07.031 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 16:35:07.127 * Background saving terminated with success
+1:M 31 May 16:40:08.014 * 1 changes in 300 seconds. Saving...
+1:M 31 May 16:40:08.016 * Background saving started by pid 231
+231:C 31 May 16:40:08.020 * DB saved on disk
+231:C 31 May 16:40:08.021 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 16:40:08.117 * Background saving terminated with success
+1:M 31 May 16:45:09.063 * 1 changes in 300 seconds. Saving...
+1:M 31 May 16:45:09.064 * Background saving started by pid 232
+232:C 31 May 16:45:09.068 * DB saved on disk
+232:C 31 May 16:45:09.069 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 16:45:09.164 * Background saving terminated with success
+1:M 31 May 16:50:10.068 * 1 changes in 300 seconds. Saving...
+1:M 31 May 16:50:10.069 * Background saving started by pid 233
+233:C 31 May 16:50:10.074 * DB saved on disk
+233:C 31 May 16:50:10.074 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 16:50:10.169 * Background saving terminated with success
+1:M 31 May 16:55:11.102 * 1 changes in 300 seconds. Saving...
+1:M 31 May 16:55:11.104 * Background saving started by pid 234
+234:C 31 May 16:55:11.107 * DB saved on disk
+234:C 31 May 16:55:11.108 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 16:55:11.204 * Background saving terminated with success
+1:M 31 May 17:00:12.036 * 1 changes in 300 seconds. Saving...
+1:M 31 May 17:00:12.039 * Background saving started by pid 235
+235:C 31 May 17:00:12.042 * DB saved on disk
+235:C 31 May 17:00:12.043 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 17:00:12.140 * Background saving terminated with success
+1:M 31 May 17:05:13.025 * 1 changes in 300 seconds. Saving...
+1:M 31 May 17:05:13.027 * Background saving started by pid 236
+236:C 31 May 17:05:13.029 * DB saved on disk
+236:C 31 May 17:05:13.029 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 17:05:13.127 * Background saving terminated with success
+1:M 31 May 17:10:14.071 * 1 changes in 300 seconds. Saving...
+1:M 31 May 17:10:14.074 * Background saving started by pid 237
+237:C 31 May 17:10:14.077 * DB saved on disk
+237:C 31 May 17:10:14.078 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 17:10:14.174 * Background saving terminated with success
+1:M 31 May 17:15:15.016 * 1 changes in 300 seconds. Saving...
+1:M 31 May 17:15:15.016 * Background saving started by pid 238
+238:C 31 May 17:15:15.020 * DB saved on disk
+238:C 31 May 17:15:15.020 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 17:15:15.117 * Background saving terminated with success
+1:M 31 May 17:20:16.093 * 1 changes in 300 seconds. Saving...
+1:M 31 May 17:20:16.094 * Background saving started by pid 239
+239:C 31 May 17:20:16.099 * DB saved on disk
+239:C 31 May 17:20:16.100 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 17:20:16.194 * Background saving terminated with success
+1:M 31 May 17:25:17.061 * 1 changes in 300 seconds. Saving...
+1:M 31 May 17:25:17.062 * Background saving started by pid 240
+240:C 31 May 17:25:17.067 * DB saved on disk
+240:C 31 May 17:25:17.068 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 17:25:17.162 * Background saving terminated with success
+1:M 31 May 17:30:18.068 * 1 changes in 300 seconds. Saving...
+1:M 31 May 17:30:18.071 * Background saving started by pid 241
+241:C 31 May 17:30:18.074 * DB saved on disk
+241:C 31 May 17:30:18.075 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 17:30:18.171 * Background saving terminated with success
+1:M 31 May 17:35:19.082 * 1 changes in 300 seconds. Saving...
+1:M 31 May 17:35:19.085 * Background saving started by pid 242
+242:C 31 May 17:35:19.089 * DB saved on disk
+242:C 31 May 17:35:19.090 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 17:35:19.186 * Background saving terminated with success
+1:M 31 May 17:40:20.077 * 1 changes in 300 seconds. Saving...
+1:M 31 May 17:40:20.078 * Background saving started by pid 243
+243:C 31 May 17:40:20.083 * DB saved on disk
+243:C 31 May 17:40:20.084 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 17:40:20.180 * Background saving terminated with success
+1:M 31 May 17:45:21.107 * 1 changes in 300 seconds. Saving...
+1:M 31 May 17:45:21.108 * Background saving started by pid 244
+244:C 31 May 17:45:21.111 * DB saved on disk
+244:C 31 May 17:45:21.112 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 17:45:21.209 * Background saving terminated with success
+1:M 31 May 17:50:22.048 * 1 changes in 300 seconds. Saving...
+1:M 31 May 17:50:22.048 * Background saving started by pid 245
+245:C 31 May 17:50:22.052 * DB saved on disk
+245:C 31 May 17:50:22.052 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 17:50:22.149 * Background saving terminated with success
+1:M 31 May 17:55:23.065 * 1 changes in 300 seconds. Saving...
+1:M 31 May 17:55:23.066 * Background saving started by pid 246
+246:C 31 May 17:55:23.070 * DB saved on disk
+246:C 31 May 17:55:23.071 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 17:55:23.166 * Background saving terminated with success
+1:M 31 May 18:00:24.007 * 1 changes in 300 seconds. Saving...
+1:M 31 May 18:00:24.007 * Background saving started by pid 247
+247:C 31 May 18:00:24.013 * DB saved on disk
+247:C 31 May 18:00:24.014 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 18:00:24.108 * Background saving terminated with success
+1:M 31 May 18:05:25.095 * 1 changes in 300 seconds. Saving...
+1:M 31 May 18:05:25.095 * Background saving started by pid 248
+248:C 31 May 18:05:25.097 * DB saved on disk
+248:C 31 May 18:05:25.097 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 18:05:25.196 * Background saving terminated with success
+1:M 31 May 18:10:26.060 * 1 changes in 300 seconds. Saving...
+1:M 31 May 18:10:26.062 * Background saving started by pid 249
+249:C 31 May 18:10:26.066 * DB saved on disk
+249:C 31 May 18:10:26.068 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 18:10:26.162 * Background saving terminated with success
+1:M 31 May 18:15:27.061 * 1 changes in 300 seconds. Saving...
+1:M 31 May 18:15:27.061 * Background saving started by pid 250
+250:C 31 May 18:15:27.066 * DB saved on disk
+250:C 31 May 18:15:27.067 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 18:15:27.162 * Background saving terminated with success
+1:M 31 May 18:20:28.009 * 1 changes in 300 seconds. Saving...
+1:M 31 May 18:20:28.009 * Background saving started by pid 251
+251:C 31 May 18:20:28.014 * DB saved on disk
+251:C 31 May 18:20:28.015 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 18:20:28.110 * Background saving terminated with success
+1:M 31 May 18:25:29.004 * 1 changes in 300 seconds. Saving...
+1:M 31 May 18:25:29.004 * Background saving started by pid 252
+252:C 31 May 18:25:29.008 * DB saved on disk
+252:C 31 May 18:25:29.009 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 18:25:29.104 * Background saving terminated with success
+1:M 31 May 18:30:30.075 * 1 changes in 300 seconds. Saving...
+1:M 31 May 18:30:30.077 * Background saving started by pid 253
+253:C 31 May 18:30:30.079 * DB saved on disk
+253:C 31 May 18:30:30.080 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 18:30:30.178 * Background saving terminated with success
+1:M 31 May 18:35:31.055 * 1 changes in 300 seconds. Saving...
+1:M 31 May 18:35:31.056 * Background saving started by pid 254
+254:C 31 May 18:35:31.059 * DB saved on disk
+254:C 31 May 18:35:31.061 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 18:35:31.157 * Background saving terminated with success
+1:M 31 May 18:40:32.006 * 1 changes in 300 seconds. Saving...
+1:M 31 May 18:40:32.009 * Background saving started by pid 255
+255:C 31 May 18:40:32.013 * DB saved on disk
+255:C 31 May 18:40:32.014 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 18:40:32.109 * Background saving terminated with success
+1:M 31 May 18:45:33.091 * 1 changes in 300 seconds. Saving...
+1:M 31 May 18:45:33.094 * Background saving started by pid 256
+256:C 31 May 18:45:33.097 * DB saved on disk
+256:C 31 May 18:45:33.098 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 18:45:33.194 * Background saving terminated with success
+1:M 31 May 18:50:34.071 * 1 changes in 300 seconds. Saving...
+1:M 31 May 18:50:34.073 * Background saving started by pid 257
+257:C 31 May 18:50:34.075 * DB saved on disk
+257:C 31 May 18:50:34.075 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 18:50:34.173 * Background saving terminated with success
+1:M 31 May 18:55:35.066 * 1 changes in 300 seconds. Saving...
+1:M 31 May 18:55:35.067 * Background saving started by pid 258
+258:C 31 May 18:55:35.071 * DB saved on disk
+258:C 31 May 18:55:35.072 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 18:55:35.168 * Background saving terminated with success
+1:M 31 May 19:00:36.027 * 1 changes in 300 seconds. Saving...
+1:M 31 May 19:00:36.028 * Background saving started by pid 259
+259:C 31 May 19:00:36.033 * DB saved on disk
+259:C 31 May 19:00:36.034 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 19:00:36.129 * Background saving terminated with success
+1:M 31 May 19:05:37.012 * 1 changes in 300 seconds. Saving...
+1:M 31 May 19:05:37.014 * Background saving started by pid 260
+260:C 31 May 19:05:37.017 * DB saved on disk
+260:C 31 May 19:05:37.018 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 19:05:37.115 * Background saving terminated with success
+1:M 31 May 19:10:38.017 * 1 changes in 300 seconds. Saving...
+1:M 31 May 19:10:38.019 * Background saving started by pid 261
+261:C 31 May 19:10:38.022 * DB saved on disk
+261:C 31 May 19:10:38.023 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 19:10:38.119 * Background saving terminated with success
+1:M 31 May 19:15:39.025 * 1 changes in 300 seconds. Saving...
+1:M 31 May 19:15:39.027 * Background saving started by pid 262
+262:C 31 May 19:15:39.030 * DB saved on disk
+262:C 31 May 19:15:39.032 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 19:15:39.128 * Background saving terminated with success
+1:M 31 May 19:20:40.015 * 1 changes in 300 seconds. Saving...
+1:M 31 May 19:20:40.016 * Background saving started by pid 263
+263:C 31 May 19:20:40.020 * DB saved on disk
+263:C 31 May 19:20:40.021 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 19:20:40.116 * Background saving terminated with success
+1:M 31 May 19:25:41.093 * 1 changes in 300 seconds. Saving...
+1:M 31 May 19:25:41.094 * Background saving started by pid 264
+264:C 31 May 19:25:41.097 * DB saved on disk
+264:C 31 May 19:25:41.098 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 19:25:41.194 * Background saving terminated with success
+1:M 31 May 19:30:42.045 * 1 changes in 300 seconds. Saving...
+1:M 31 May 19:30:42.047 * Background saving started by pid 265
+265:C 31 May 19:30:42.051 * DB saved on disk
+265:C 31 May 19:30:42.052 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 19:30:42.148 * Background saving terminated with success
+1:M 31 May 19:35:43.042 * 1 changes in 300 seconds. Saving...
+1:M 31 May 19:35:43.043 * Background saving started by pid 266
+266:C 31 May 19:35:43.048 * DB saved on disk
+266:C 31 May 19:35:43.049 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 19:35:43.143 * Background saving terminated with success
+1:M 31 May 19:40:44.072 * 1 changes in 300 seconds. Saving...
+1:M 31 May 19:40:44.073 * Background saving started by pid 267
+267:C 31 May 19:40:44.078 * DB saved on disk
+267:C 31 May 19:40:44.079 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 19:40:44.173 * Background saving terminated with success
+1:M 31 May 19:45:45.061 * 1 changes in 300 seconds. Saving...
+1:M 31 May 19:45:45.061 * Background saving started by pid 268
+268:C 31 May 19:45:45.090 * DB saved on disk
+268:C 31 May 19:45:45.091 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 19:45:45.162 * Background saving terminated with success
+1:M 31 May 19:50:46.019 * 1 changes in 300 seconds. Saving...
+1:M 31 May 19:50:46.020 * Background saving started by pid 269
+269:C 31 May 19:50:46.024 * DB saved on disk
+269:C 31 May 19:50:46.025 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 19:50:46.121 * Background saving terminated with success
+1:M 31 May 19:55:47.032 * 1 changes in 300 seconds. Saving...
+1:M 31 May 19:55:47.035 * Background saving started by pid 270
+270:C 31 May 19:55:47.039 * DB saved on disk
+270:C 31 May 19:55:47.040 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 19:55:47.136 * Background saving terminated with success
+1:signal-handler (1622491168) Received SIGTERM scheduling shutdown...
+1:M 31 May 19:59:28.748 # User requested shutdown...
+1:M 31 May 19:59:28.748 * Saving the final RDB snapshot before exiting.
+1:M 31 May 19:59:28.750 * DB saved on disk
+1:M 31 May 19:59:28.750 * Removing the pid file.
+1:M 31 May 19:59:28.750 # Redis is now ready to exit, bye bye...
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.2.12 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 1
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+1:M 31 May 19:59:54.857 # Server started, Redis version 3.2.12
+1:M 31 May 19:59:54.857 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 31 May 19:59:54.858 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+1:M 31 May 19:59:54.858 * DB loaded from disk: 0.000 seconds
+1:M 31 May 19:59:54.858 * The server is now ready to accept connections on port 6379
+1:M 31 May 20:04:55.045 * 1 changes in 300 seconds. Saving...
+1:M 31 May 20:04:55.072 * Background saving started by pid 228
+228:C 31 May 20:04:55.079 * DB saved on disk
+228:C 31 May 20:04:55.081 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 20:04:55.173 # Warning, detected child with unmatched pid: 219
+1:M 31 May 20:04:55.273 * Background saving terminated with success
+1:M 31 May 20:09:56.035 * 1 changes in 300 seconds. Saving...
+1:M 31 May 20:09:56.037 * Background saving started by pid 229
+229:C 31 May 20:09:56.040 * DB saved on disk
+229:C 31 May 20:09:56.041 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 20:09:56.138 * Background saving terminated with success
+1:M 31 May 20:14:57.076 * 1 changes in 300 seconds. Saving...
+1:M 31 May 20:14:57.079 * Background saving started by pid 230
+230:C 31 May 20:14:57.082 * DB saved on disk
+230:C 31 May 20:14:57.082 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 20:14:57.179 * Background saving terminated with success
+1:M 31 May 20:19:58.096 * 1 changes in 300 seconds. Saving...
+1:M 31 May 20:19:58.097 * Background saving started by pid 231
+231:C 31 May 20:19:58.099 * DB saved on disk
+231:C 31 May 20:19:58.100 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 20:19:58.197 * Background saving terminated with success
+1:M 31 May 20:24:59.032 * 1 changes in 300 seconds. Saving...
+1:M 31 May 20:24:59.035 * Background saving started by pid 232
+232:C 31 May 20:24:59.037 * DB saved on disk
+232:C 31 May 20:24:59.039 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 20:24:59.135 * Background saving terminated with success
+1:M 31 May 20:30:00.013 * 1 changes in 300 seconds. Saving...
+1:M 31 May 20:30:00.014 * Background saving started by pid 233
+233:C 31 May 20:30:00.017 * DB saved on disk
+233:C 31 May 20:30:00.018 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 20:30:00.115 * Background saving terminated with success
+1:signal-handler (1622493135) Received SIGTERM scheduling shutdown...
+1:M 31 May 20:32:15.327 # User requested shutdown...
+1:M 31 May 20:32:15.327 * Saving the final RDB snapshot before exiting.
+1:M 31 May 20:32:15.328 * DB saved on disk
+1:M 31 May 20:32:15.328 * Removing the pid file.
+1:M 31 May 20:32:15.328 # Redis is now ready to exit, bye bye...
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.2.12 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 1
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+1:M 31 May 20:32:38.759 # Server started, Redis version 3.2.12
+1:M 31 May 20:32:38.759 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 31 May 20:32:38.759 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+1:M 31 May 20:32:38.759 * DB loaded from disk: 0.000 seconds
+1:M 31 May 20:32:38.759 * The server is now ready to accept connections on port 6379
+1:M 31 May 20:37:39.006 * 1 changes in 300 seconds. Saving...
+1:M 31 May 20:37:39.006 * Background saving started by pid 228
+228:C 31 May 20:37:39.009 * DB saved on disk
+228:C 31 May 20:37:39.010 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 20:37:39.108 # Warning, detected child with unmatched pid: 219
+1:M 31 May 20:37:39.208 * Background saving terminated with success
+1:M 31 May 20:42:40.056 * 1 changes in 300 seconds. Saving...
+1:M 31 May 20:42:40.059 * Background saving started by pid 229
+229:C 31 May 20:42:40.062 * DB saved on disk
+229:C 31 May 20:42:40.064 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 20:42:40.160 * Background saving terminated with success
+1:M 31 May 20:47:41.091 * 1 changes in 300 seconds. Saving...
+1:M 31 May 20:47:41.092 * Background saving started by pid 230
+230:C 31 May 20:47:41.095 * DB saved on disk
+230:C 31 May 20:47:41.096 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 20:47:41.193 * Background saving terminated with success
+1:signal-handler (1622494084) Received SIGTERM scheduling shutdown...
+1:M 31 May 20:48:04.271 # User requested shutdown...
+1:M 31 May 20:48:04.272 * Saving the final RDB snapshot before exiting.
+1:M 31 May 20:48:04.273 * DB saved on disk
+1:M 31 May 20:48:04.273 * Removing the pid file.
+1:M 31 May 20:48:04.273 # Redis is now ready to exit, bye bye...
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.2.12 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 1
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+1:M 31 May 20:48:29.654 # Server started, Redis version 3.2.12
+1:M 31 May 20:48:29.655 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 31 May 20:48:29.656 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+1:M 31 May 20:48:29.656 * DB loaded from disk: 0.000 seconds
+1:M 31 May 20:48:29.656 * The server is now ready to accept connections on port 6379
+1:M 31 May 20:53:30.022 * 1 changes in 300 seconds. Saving...
+1:M 31 May 20:53:30.023 * Background saving started by pid 228
+228:C 31 May 20:53:30.052 * DB saved on disk
+228:C 31 May 20:53:30.053 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 20:53:30.124 # Warning, detected child with unmatched pid: 220
+1:M 31 May 20:53:30.224 * Background saving terminated with success
+1:signal-handler (1622494470) Received SIGTERM scheduling shutdown...
+1:M 31 May 20:54:30.536 # User requested shutdown...
+1:M 31 May 20:54:30.536 * Saving the final RDB snapshot before exiting.
+1:M 31 May 20:54:30.537 * DB saved on disk
+1:M 31 May 20:54:30.537 * Removing the pid file.
+1:M 31 May 20:54:30.537 # Redis is now ready to exit, bye bye...
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.2.12 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 1
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+1:M 31 May 20:54:54.411 # Server started, Redis version 3.2.12
+1:M 31 May 20:54:54.411 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 31 May 20:54:54.411 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+1:M 31 May 20:54:54.411 * DB loaded from disk: 0.000 seconds
+1:M 31 May 20:54:54.411 * The server is now ready to accept connections on port 6379
+1:M 31 May 20:59:55.037 * 1 changes in 300 seconds. Saving...
+1:M 31 May 20:59:55.037 * Background saving started by pid 227
+227:C 31 May 20:59:55.041 * DB saved on disk
+227:C 31 May 20:59:55.042 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 20:59:55.138 # Warning, detected child with unmatched pid: 219
+1:M 31 May 20:59:55.239 * Background saving terminated with success
+1:M 31 May 21:04:56.097 * 1 changes in 300 seconds. Saving...
+1:M 31 May 21:04:56.098 * Background saving started by pid 228
+228:C 31 May 21:04:56.128 * DB saved on disk
+228:C 31 May 21:04:56.129 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 21:04:56.198 * Background saving terminated with success
+1:M 31 May 21:09:57.053 * 1 changes in 300 seconds. Saving...
+1:M 31 May 21:09:57.054 * Background saving started by pid 229
+229:C 31 May 21:09:57.057 * DB saved on disk
+229:C 31 May 21:09:57.058 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 21:09:57.155 * Background saving terminated with success
+1:M 31 May 21:14:58.099 * 1 changes in 300 seconds. Saving...
+1:M 31 May 21:14:58.100 * Background saving started by pid 230
+230:C 31 May 21:14:58.103 * DB saved on disk
+230:C 31 May 21:14:58.104 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 21:14:58.200 * Background saving terminated with success
+1:M 31 May 21:19:59.052 * 1 changes in 300 seconds. Saving...
+1:M 31 May 21:19:59.053 * Background saving started by pid 231
+231:C 31 May 21:19:59.057 * DB saved on disk
+231:C 31 May 21:19:59.058 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 21:19:59.153 * Background saving terminated with success
+1:M 31 May 21:25:05.231 * 1 changes in 300 seconds. Saving...
+1:M 31 May 21:25:05.231 * Background saving started by pid 232
+232:C 31 May 21:25:05.236 * DB saved on disk
+232:C 31 May 21:25:05.236 * RDB: 0 MB of memory used by copy-on-write
+1:M 31 May 21:25:05.332 * Background saving terminated with success
+1:M 01 Jun 01:29:03.232 * 1 changes in 300 seconds. Saving...
+1:M 01 Jun 01:29:03.232 * Background saving started by pid 233
+233:C 01 Jun 01:29:03.238 * DB saved on disk
+233:C 01 Jun 01:29:03.238 * RDB: 0 MB of memory used by copy-on-write
+1:M 01 Jun 01:29:03.332 * Background saving terminated with success
+1:M 01 Jun 01:34:04.021 * 1 changes in 300 seconds. Saving...
+1:M 01 Jun 01:34:04.049 * Background saving started by pid 234
+234:C 01 Jun 01:34:04.058 * DB saved on disk
+234:C 01 Jun 01:34:04.060 * RDB: 0 MB of memory used by copy-on-write
+1:M 01 Jun 01:34:04.149 * Background saving terminated with success
+1:M 01 Jun 01:39:05.015 * 1 changes in 300 seconds. Saving...
+1:M 01 Jun 01:39:05.017 * Background saving started by pid 235
+235:C 01 Jun 01:39:05.021 * DB saved on disk
+235:C 01 Jun 01:39:05.024 * RDB: 0 MB of memory used by copy-on-write
+1:M 01 Jun 01:39:05.117 * Background saving terminated with success
+1:M 01 Jun 01:44:06.064 * 1 changes in 300 seconds. Saving...
+1:M 01 Jun 01:44:06.064 * Background saving started by pid 236
+236:C 01 Jun 01:44:06.068 * DB saved on disk
+236:C 01 Jun 01:44:06.069 * RDB: 0 MB of memory used by copy-on-write
+1:M 01 Jun 01:44:06.165 * Background saving terminated with success
+1:M 01 Jun 01:49:07.064 * 1 changes in 300 seconds. Saving...
+1:M 01 Jun 01:49:07.065 * Background saving started by pid 237
+237:C 01 Jun 01:49:07.095 * DB saved on disk
+237:C 01 Jun 01:49:07.097 * RDB: 0 MB of memory used by copy-on-write
+1:M 01 Jun 01:49:07.166 * Background saving terminated with success
+1:signal-handler (1622512303) Received SIGTERM scheduling shutdown...
+1:M 01 Jun 01:51:43.705 # User requested shutdown...
+1:M 01 Jun 01:51:43.705 * Saving the final RDB snapshot before exiting.
+1:M 01 Jun 01:51:43.706 * DB saved on disk
+1:M 01 Jun 01:51:43.706 * Removing the pid file.
+1:M 01 Jun 01:51:43.707 # Redis is now ready to exit, bye bye...
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.2.12 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 1
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+1:M 01 Jun 01:52:02.688 # Server started, Redis version 3.2.12
+1:M 01 Jun 01:52:02.690 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 01 Jun 01:52:02.692 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+1:M 01 Jun 01:52:02.694 * DB loaded from disk: 0.000 seconds
+1:M 01 Jun 01:52:02.696 * The server is now ready to accept connections on port 6379
+1:M 01 Jun 01:57:03.026 * 1 changes in 300 seconds. Saving...
+1:M 01 Jun 01:57:03.028 * Background saving started by pid 228
+228:C 01 Jun 01:57:03.033 * DB saved on disk
+228:C 01 Jun 01:57:03.035 * RDB: 0 MB of memory used by copy-on-write
+1:M 01 Jun 01:57:03.129 # Warning, detected child with unmatched pid: 219
+1:M 01 Jun 01:57:03.229 * Background saving terminated with success
+1:M 01 Jun 02:02:04.005 * 1 changes in 300 seconds. Saving...
+1:M 01 Jun 02:02:04.005 * Background saving started by pid 229
+229:C 01 Jun 02:02:04.007 * DB saved on disk
+229:C 01 Jun 02:02:04.007 * RDB: 0 MB of memory used by copy-on-write
+1:M 01 Jun 02:02:04.105 * Background saving terminated with success
+1:M 01 Jun 02:07:05.083 * 1 changes in 300 seconds. Saving...
+1:M 01 Jun 02:07:05.110 * Background saving started by pid 230
+230:C 01 Jun 02:07:05.114 * DB saved on disk
+230:C 01 Jun 02:07:05.116 * RDB: 0 MB of memory used by copy-on-write
+1:M 01 Jun 02:07:05.211 * Background saving terminated with success
+1:M 01 Jun 02:12:06.061 * 1 changes in 300 seconds. Saving...
+1:M 01 Jun 02:12:06.062 * Background saving started by pid 231
+231:C 01 Jun 02:12:06.066 * DB saved on disk
+231:C 01 Jun 02:12:06.067 * RDB: 0 MB of memory used by copy-on-write
+1:M 01 Jun 02:12:06.163 * Background saving terminated with success
+1:M 01 Jun 02:17:07.034 * 1 changes in 300 seconds. Saving...
+1:M 01 Jun 02:17:07.034 * Background saving started by pid 232
+232:C 01 Jun 02:17:07.039 * DB saved on disk
+232:C 01 Jun 02:17:07.040 * RDB: 0 MB of memory used by copy-on-write
+1:M 01 Jun 02:17:07.135 * Background saving terminated with success
+1:M 01 Jun 02:22:08.077 * 1 changes in 300 seconds. Saving...
+1:M 01 Jun 02:22:08.078 * Background saving started by pid 233
+233:C 01 Jun 02:22:08.081 * DB saved on disk
+233:C 01 Jun 02:22:08.082 * RDB: 0 MB of memory used by copy-on-write
+1:M 01 Jun 02:22:08.178 * Background saving terminated with success
+1:M 01 Jun 02:27:09.030 * 1 changes in 300 seconds. Saving...
+1:M 01 Jun 02:27:09.030 * Background saving started by pid 234
+234:C 01 Jun 02:27:09.033 * DB saved on disk
+234:C 01 Jun 02:27:09.034 * RDB: 0 MB of memory used by copy-on-write
+1:M 01 Jun 02:27:09.131 * Background saving terminated with success
+1:M 01 Jun 02:32:10.042 * 1 changes in 300 seconds. Saving...
+1:M 01 Jun 02:32:10.043 * Background saving started by pid 235
+235:C 01 Jun 02:32:10.048 * DB saved on disk
+235:C 01 Jun 02:32:10.049 * RDB: 0 MB of memory used by copy-on-write
+1:M 01 Jun 02:32:10.144 * Background saving terminated with success
+1:signal-handler (1622517567) Received SIGTERM scheduling shutdown...
+1:M 01 Jun 03:19:27.157 # User requested shutdown...
+1:M 01 Jun 03:19:27.157 * Saving the final RDB snapshot before exiting.
+1:M 01 Jun 03:19:27.158 * DB saved on disk
+1:M 01 Jun 03:19:27.158 * Removing the pid file.
+1:M 01 Jun 03:19:27.158 # Redis is now ready to exit, bye bye...
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.2.12 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 1
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+1:M 01 Jun 03:19:53.099 # Server started, Redis version 3.2.12
+1:M 01 Jun 03:19:53.099 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 01 Jun 03:19:53.099 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+1:M 01 Jun 03:19:53.099 * DB loaded from disk: 0.000 seconds
+1:M 01 Jun 03:19:53.099 * The server is now ready to accept connections on port 6379
+1:signal-handler (1622518236) Received SIGTERM scheduling shutdown...
+1:M 01 Jun 03:30:36.187 # User requested shutdown...
+1:M 01 Jun 03:30:36.187 * Saving the final RDB snapshot before exiting.
+1:M 01 Jun 03:30:36.189 * DB saved on disk
+1:M 01 Jun 03:30:36.189 * Removing the pid file.
+1:M 01 Jun 03:30:36.189 # Redis is now ready to exit, bye bye...
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.2.12 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 1
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+1:M 01 Jun 03:30:59.880 # Server started, Redis version 3.2.12
+1:M 01 Jun 03:30:59.880 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 01 Jun 03:30:59.880 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+1:M 01 Jun 03:30:59.880 * DB loaded from disk: 0.000 seconds
+1:M 01 Jun 03:30:59.880 * The server is now ready to accept connections on port 6379
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.2.12 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 1
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+1:M 01 Jun 03:33:50.508 # Server started, Redis version 3.2.12
+1:M 01 Jun 03:33:50.508 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 01 Jun 03:33:50.508 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+1:M 01 Jun 03:33:50.508 * DB loaded from disk: 0.000 seconds
+1:M 01 Jun 03:33:50.508 * The server is now ready to accept connections on port 6379
